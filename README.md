@@ -46,7 +46,7 @@ A Flutter project for a restaurant application.
 ```
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+Codelab study jam
 
 Todo 1
 ```dart
@@ -105,7 +105,6 @@ Todo 3
 ```
 Todo 4
 ```dart
-// Metode ini membangun hero image untuk animasi transisi.
   Hero buildHeroImage(Restaurant restaurant) {
     return Hero(
         tag: restaurant.pictureId,
@@ -119,7 +118,6 @@ Todo 4
         ));
   }
 
-  // Metode ini membangun widget gambar.
   Widget _buildImage(String imageUrl) {
     return Image.network(
       imageUrl,
