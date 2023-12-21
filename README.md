@@ -1,8 +1,6 @@
 # restaurant_app
 
-A new Flutter project.
-
-Sure, here's a Markdown representation of your project structure that you can directly copy and paste into your GitHub README.md:
+A starter project.
 
 ```markdown
 # Restaurant App
@@ -46,8 +44,6 @@ A Flutter project for a restaurant application.
 - `pubspec.yaml`: Configuration file for your Flutter project.
 ```
 ```
-
-
 ## Getting Started
 
 This project is a starting point for a Flutter application.
