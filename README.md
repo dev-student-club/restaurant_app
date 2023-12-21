@@ -48,6 +48,87 @@ A Flutter project for a restaurant application.
 
 This project is a starting point for a Flutter application.
 
+Todo 1
+```dart
+return Expanded(
+  child: ListView.builder(
+    itemCount: restaurants.length,
+    itemBuilder: (context, index) {
+      return _buildRestaurantItem(context, restaurants[index]);
+    },
+  ),
+);
+```
+Todo 2
+```dart
+Widget _buildRestaurantItem(BuildContext context, Restaurant restaurant) {
+    return Padding(
+      padding: const EdgeInsets.only(top: 8.0, left: 8.0, right: 8.0),
+      child: ListTile(
+        leading: buildHeroImage(restaurant),
+        title: Text(
+          restaurant.name,
+          style: const TextStyle(fontWeight: FontWeight.w200),
+        ),
+        subtitle: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            _buildIconName(restaurant.city, Icons.place),
+            _buildIconName('${restaurant.rating}', Icons.star),
+          ],
+        ),
+        onTap: () {
+          // Navigasi ke halaman detail ketika item restoran ditekan.
+          Navigator.pushNamed(context, DetailRestaurant.routeName,
+              arguments: restaurant);
+        },
+      ),
+    );
+  }
+```
+Todo 3
+```dart
+ Row _buildIconName(String name, IconData icon) {
+    return Row(
+      children: [
+        Icon(
+          icon,
+          size: 12,
+        ),
+        const SizedBox(
+          width: 8,
+        ),
+        Text(name),
+      ],
+    );
+  }
+```
+Todo 4
+```dart
+// Metode ini membangun hero image untuk animasi transisi.
+  Hero buildHeroImage(Restaurant restaurant) {
+    return Hero(
+        tag: restaurant.pictureId,
+        child: SizedBox(
+          width: 100,
+          height: 100,
+          child: ClipRRect(
+            borderRadius: BorderRadius.circular(8),
+            child: _buildImage(restaurant.pictureId),
+          ),
+        ));
+  }
+
+  // Metode ini membangun widget gambar.
+  Widget _buildImage(String imageUrl) {
+    return Image.network(
+      imageUrl,
+      fit: BoxFit.fill,
+      errorBuilder: (ctx, error, _) => const Center(child: Icon(Icons.error)),
+    );
+  }
+```
+
 A few resources to get you started if this is your first Flutter project:
 
 - [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
