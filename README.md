@@ -2,9 +2,6 @@
 
 A starter project.
 
-Demo app
-![Demo Video](assets/demo.gif)
-
 ```markdown
 # Restaurant App
 
@@ -204,6 +201,11 @@ Todo 4
     );
   }
 ```
+
+Final result
+
+
+![Demo Video](assets/demo.gif)
 
 A few resources to get you started if this is your first Flutter project:
 
