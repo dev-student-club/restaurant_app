@@ -2,6 +2,9 @@
 
 A starter project.
 
+Demo app
+![Demo Video](assets/demo.gif)
+
 ```markdown
 # Restaurant App
 
