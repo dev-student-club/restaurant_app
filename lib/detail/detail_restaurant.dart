@@ -6,8 +6,7 @@ class DetailRestaurant extends StatefulWidget {
 
   final Restaurant restaurant;
 
-  const DetailRestaurant({Key? key, required this.restaurant})
-      : super(key: key);
+  const DetailRestaurant({super.key, required this.restaurant});
 
   @override
   // ignore: library_private_types_in_public_api
