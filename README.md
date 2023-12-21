@@ -11,7 +11,7 @@ A Flutter project for a restaurant application.
 
 ## Project Structure
 
-```
+
 .
 ├── lib
 │   ├── detail
@@ -31,8 +31,8 @@ A Flutter project for a restaurant application.
 ├── test
 ├── web
 ├── pubspec.yaml
-```
 
+```
 - `lib/`: Contains the main Dart code for your Flutter project.
   - `detail/`: Dart file for the detail screen (`detail_restaurant.dart`).
   - `home/`: Dart file for the home screen (`list_restaurant.dart`).
