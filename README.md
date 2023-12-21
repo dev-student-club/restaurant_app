@@ -28,8 +28,9 @@ A Flutter project for a restaurant application.
 ├── test
 ├── web
 ├── pubspec.yaml
-
 ```
+
+```markdown
 - `lib/`: Contains the main Dart code for your Flutter project.
   - `detail/`: Dart file for the detail screen (`detail_restaurant.dart`).
   - `home/`: Dart file for the home screen (`list_restaurant.dart`).
@@ -43,7 +44,7 @@ A Flutter project for a restaurant application.
 - `web/`: Folder for web-specific code and assets.
 - `pubspec.yaml`: Configuration file for your Flutter project.
 ```
-```
+
 
 Data structure
 ```json
