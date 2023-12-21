@@ -4,13 +4,11 @@ A new Flutter project.
 
 Sure, here's a Markdown representation of your project structure that you can directly copy and paste into your GitHub README.md:
 
-```markdown
 # Restaurant App
 
 A Flutter project for a restaurant application.
 
 ## Project Structure
-
 
 .
 ├── lib
@@ -46,6 +44,7 @@ A Flutter project for a restaurant application.
 - `web/`: Folder for web-specific code and assets.
 - `pubspec.yaml`: Configuration file for your Flutter project.
 ```
+
 
 ## Getting Started
 
