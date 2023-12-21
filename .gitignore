@@ -1,0 +1,8 @@
+.dart_tool
+build/96ddc1d526edc602b4d95cc8fe66f9a1
+build/ios/Pods.build/Release-iphonesimulator/Flutter.build
+build/ios/Pods.build/Release-iphonesimulator/path_provider_foundation.build
+build/ios/Pods.build/Release-iphonesimulator/Pods-RunnerTests.build
+.flutter-plugins-dependencies
+.flutter-plugins
+build/ios/Pods.build/Release-iphonesimulator/Pods-Runner.build
