@@ -124,6 +124,11 @@ Data structure
 
 Codelab study jam
 
+After cloning this project try this
+```bash
+flutter pub get
+```
+
 Todo 1
 ```dart
 return Expanded(
