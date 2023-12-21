@@ -122,8 +122,6 @@ Data structure
 
 ## Getting Started
 
-Codelab study jam
-
 After cloning this project try this
 ```bash
 flutter pub get
